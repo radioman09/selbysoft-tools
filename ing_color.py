@@ -7,16 +7,8 @@ os.system('title add_spec')
 os.system('color B')
 
 app = Application().connect(title_re = "SP-1 by SelbySoft, Inc.", class_name = "#32770")
-
-
-
-
-
 window = app.Dialog
-
-
 time.sleep(1.4)
-
 
 for i in range(0,6):
 
